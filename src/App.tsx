@@ -2,6 +2,8 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import DrinksList from "./Key";
+import ContAndUnCont from "./Controlled&Uncontrolled";
 
 const data = [
   {
@@ -41,7 +43,9 @@ export default function App() {
   console.log(topDesserts);
   return (
     <div>
-      <ul>{listItems}</ul>
+      {/* <ul>{listItems}</ul> */}
+      {/* <DrinksList /> */}
+      <ContAndUnCont />
     </div>
   );
 }
