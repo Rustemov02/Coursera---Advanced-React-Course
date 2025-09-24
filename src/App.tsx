@@ -4,6 +4,8 @@ import { ThemeProvider } from "./ContextAPI/ThemeContext";
 import React from "react";
 import Test from "./Test";
 import FormWithUseStateHook from "./Exercises/GoalForm/GoalForm";
+import Form from "./FormStatus";
+import GiftCard from "./Exercises/GiftCard";
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
       <ThemeProvider>
         {/* <Test /> */}
         {/* <DarkLightContainer /> */}
-        <FormWithUseStateHook />
+        {/* <FormWithUseStateHook /> */}
+        {/* <Form/> */}
+        <GiftCard/>
       </ThemeProvider>
     </div>
   );
