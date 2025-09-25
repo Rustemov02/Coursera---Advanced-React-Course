@@ -1,24 +1,16 @@
-import { useFormStatus } from "react-dom";
+import Button from "./components/Button/Button";
 
-function SubmitButton() {
-  const { pending } = useFormStatus();
+const MyForm = () => {
+  const submitHandler = async (formData: FormData) => {
+    console.log(formData.get("name"));
+  };
 
   return (
-    <button type="submit" disabled={pending}>
-      {pending ? "Submitting..." : "Submit"}
-    </button>
-  );
-}
-
-export default function Form() {
-  return (
-    <form action={handleSubmit}>
-      <input type="text" name="name" placeholder="Enter your name" />
-      <SubmitButton />
+    <form action={submitHandler}>
+      <input placeholder="name" name="name" />
+      <Button title="Submit button" />
     </form>
   );
-}
+};
 
-async function handleSubmit(formData: FormData) {
-  // Handle form submission
-}
+export default MyForm;

@@ -6,6 +6,8 @@ import Test from "./Test";
 import FormWithUseStateHook from "./Exercises/GoalForm/GoalForm";
 import Form from "./FormStatus";
 import GiftCard from "./Exercises/GiftCard";
+import MyForm from "./FormStatus";
+import GetUserInfo from "./Exercises/FetchingData";
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
         {/* <DarkLightContainer /> */}
         {/* <FormWithUseStateHook /> */}
         {/* <Form/> */}
-        <GiftCard/>
+        {/* <GiftCard/> */}
+        {/* <MyForm /> */}
+        <GetUserInfo />
       </ThemeProvider>
     </div>
   );
