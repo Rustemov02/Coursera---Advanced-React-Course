@@ -1,13 +1,14 @@
+import React from "react";
+import { ThemeProvider } from "./ContextAPI/ThemeContext";
 import DarkLightContainer from "./Exercises/DarkLightThemeWIthContextApi";
 import TransformDataUsingMapMethod from "./TransformDataUsingMapMethod";
-import { ThemeProvider } from "./ContextAPI/ThemeContext";
-import React from "react";
 import Test from "./Test";
 import FormWithUseStateHook from "./Exercises/GoalForm/GoalForm";
 import Form from "./FormStatus";
 import GiftCard from "./Exercises/GiftCard";
 import MyForm from "./FormStatus";
 import GetUserInfo from "./Exercises/FetchingData";
+import GetPreviousDate from "./Exercises/getPreviousDate";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
         {/* <Form/> */}
         {/* <GiftCard/> */}
         {/* <MyForm /> */}
-        <GetUserInfo />
+        {/* <GetUserInfo /> */}
+        <GetPreviousDate />
       </ThemeProvider>
     </div>
   );
