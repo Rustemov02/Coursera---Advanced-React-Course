@@ -30,7 +30,7 @@ export default function GetPreviousDate() {
 function usePrevious(val: any) {
   const dateRef = useRef<any>(null);
   useEffect(() => {
-    dateRef?.current = val;
+    dateRef.current = val;
   }, [val]);
   return dateRef.current;
 }

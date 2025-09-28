@@ -9,6 +9,7 @@ import GiftCard from "./Exercises/GiftCard";
 import MyForm from "./FormStatus";
 import GetUserInfo from "./Exercises/FetchingData";
 import GetPreviousDate from "./Exercises/getPreviousDate";
+import ManipulatingChildren from "./ManipulatingChildren";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
         {/* <GiftCard/> */}
         {/* <MyForm /> */}
         {/* <GetUserInfo /> */}
-        <GetPreviousDate />
+        {/* <GetPreviousDate /> */}
+        <ManipulatingChildren />
       </ThemeProvider>
     </div>
   );
