@@ -10,6 +10,8 @@ import MyForm from "./FormStatus";
 import GetUserInfo from "./Exercises/FetchingData";
 import GetPreviousDate from "./Exercises/getPreviousDate";
 import ManipulatingChildren from "./ManipulatingChildren";
+import { RadioOption } from "./components/Radio/Radio";
+import BuildRadioContainer from "./Exercises/BuildRadioGroupComponent";
 
 function App() {
   return (
@@ -23,7 +25,8 @@ function App() {
         {/* <MyForm /> */}
         {/* <GetUserInfo /> */}
         {/* <GetPreviousDate /> */}
-        <ManipulatingChildren />
+        {/* <ManipulatingChildren /> */}
+        <BuildRadioContainer />
       </ThemeProvider>
     </div>
   );
