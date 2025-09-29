@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="h-dvh border-2">
       <ThemeProvider>
-        {/* <Test /> */}
+        <Test />
         {/* <DarkLightContainer /> */}
         {/* <FormWithUseStateHook /> */}
         {/* <Form/> */}
@@ -26,7 +26,7 @@ function App() {
         {/* <GetUserInfo /> */}
         {/* <GetPreviousDate /> */}
         {/* <ManipulatingChildren /> */}
-        <BuildRadioContainer />
+        {/* <BuildRadioContainer /> */}
       </ThemeProvider>
     </div>
   );
