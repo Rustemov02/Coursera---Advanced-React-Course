@@ -12,12 +12,13 @@ import GetPreviousDate from "./Exercises/getPreviousDate";
 import ManipulatingChildren from "./ManipulatingChildren";
 import { RadioOption } from "./components/Radio/Radio";
 import BuildRadioContainer from "./Exercises/BuildRadioGroupComponent";
+import HOCComponents from "./HOC";
 
 function App() {
   return (
     <div className="h-dvh border-2">
       <ThemeProvider>
-        <Test />
+        {/* <Test /> */}
         {/* <DarkLightContainer /> */}
         {/* <FormWithUseStateHook /> */}
         {/* <Form/> */}
@@ -27,6 +28,7 @@ function App() {
         {/* <GetPreviousDate /> */}
         {/* <ManipulatingChildren /> */}
         {/* <BuildRadioContainer /> */}
+        <HOCComponents />
       </ThemeProvider>
     </div>
   );
