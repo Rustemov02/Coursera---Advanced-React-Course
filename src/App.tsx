@@ -13,6 +13,7 @@ import ManipulatingChildren from "./ManipulatingChildren";
 import { RadioOption } from "./components/Radio/Radio";
 import BuildRadioContainer from "./Exercises/BuildRadioGroupComponent";
 import HOCComponents from "./HOC";
+import HOCforCursorPosition from "./Exercises/HOCforCursorPosition";
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
         {/* <GetPreviousDate /> */}
         {/* <ManipulatingChildren /> */}
         {/* <BuildRadioContainer /> */}
-        <HOCComponents />
+        {/* <HOCComponents /> */}
+        <HOCforCursorPosition />
       </ThemeProvider>
     </div>
   );
