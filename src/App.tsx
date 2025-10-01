@@ -14,6 +14,8 @@ import { RadioOption } from "./components/Radio/Radio";
 import BuildRadioContainer from "./Exercises/BuildRadioGroupComponent";
 import HOCComponents from "./HOC";
 import HOCforCursorPosition from "./Exercises/HOCforCursorPosition";
+import RenderProps from "./RenderProps";
+import ScrollerPositionWithRenderProps from "./Exercises/ScrollerPositionWithRenderProps";
 
 function App() {
   return (
@@ -30,7 +32,9 @@ function App() {
         {/* <ManipulatingChildren /> */}
         {/* <BuildRadioContainer /> */}
         {/* <HOCComponents /> */}
-        <HOCforCursorPosition />
+        {/* <HOCforCursorPosition /> */}
+        {/* <RenderProps/> */}
+        <ScrollerPositionWithRenderProps />
       </ThemeProvider>
     </div>
   );
