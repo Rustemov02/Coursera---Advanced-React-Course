@@ -16,6 +16,7 @@ import HOCComponents from "./HOC";
 import HOCforCursorPosition from "./Exercises/HOCforCursorPosition";
 import RenderProps from "./RenderProps";
 import ScrollerPositionWithRenderProps from "./Exercises/ScrollerPositionWithRenderProps";
+import TestScenarios from "./Exercises/TestScenariosForFeedBackForm";
 
 function App() {
   return (
@@ -34,7 +35,8 @@ function App() {
         {/* <HOCComponents /> */}
         {/* <HOCforCursorPosition /> */}
         {/* <RenderProps/> */}
-        <ScrollerPositionWithRenderProps />
+        {/* <ScrollerPositionWithRenderProps /> */}
+        <TestScenarios />
       </ThemeProvider>
     </div>
   );
